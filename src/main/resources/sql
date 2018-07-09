@@ -1,0 +1,11 @@
+INSERT INTO employee(id, name, age, salary) VALUES(1, 'Alisson', 24, 80000);
+INSERT INTO employee(id, name, age, salary) VALUES(2, 'Robertson', 23, 50000);
+INSERT INTO employee(id, name, age, salary) VALUES(3, 'Lovren', 27, 100000);
+INSERT INTO employee(id, name, age, salary) VALUES(4, 'VVD', 26, 180000);
+INSERT INTO employee(id, name, age, salary) VALUES(5, 'TAA', 19, 40000);
+INSERT INTO employee(id, name, age, salary) VALUES(6, 'Fabinho', 24, 150000);
+INSERT INTO employee(id, name, age, salary) VALUES(7, 'Mane', 25, 160000);
+INSERT INTO employee(id, name, age, salary) VALUES(8, 'Keita', 24, 120000);
+INSERT INTO employee(id, name, age, salary) VALUES(9, 'Firmino', 25, 180000);
+INSERT INTO employee(id, name, age, salary) VALUES(10, 'Fekir', 24, 150000);
+INSERT INTO employee(id, name, age, salary) VALUES(11, 'Salah', 25, 200000);

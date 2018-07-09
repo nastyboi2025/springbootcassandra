@@ -103,9 +103,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    /* (non-Javadoc)
-     * @see java.lang.Object#toString()
-     */
     @Override
     public String toString() {
         return "Employee [id=" + id + ", name=" + name + ", age=" + age
