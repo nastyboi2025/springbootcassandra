@@ -11,7 +11,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @version 1.0
  */
 @SpringBootApplication
-@ComponentScan(basePackages="com.java.nas.cassie")
 public class CassieApplication {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(CassieApplication.class, args);

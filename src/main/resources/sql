@@ -1,3 +1,7 @@
+drop keyspace if exists nastyboi;
+create keyspace if not exists nastyboi with replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};
+USE nastyboi;
+CREATE TABLE employee(id int PRIMARY KEY, name text, age int, salary float);
 INSERT INTO employee(id, name, age, salary) VALUES(1, 'Alisson', 24, 80000);
 INSERT INTO employee(id, name, age, salary) VALUES(2, 'Robertson', 23, 50000);
 INSERT INTO employee(id, name, age, salary) VALUES(3, 'Lovren', 27, 100000);
